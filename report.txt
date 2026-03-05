@@ -1,0 +1,36 @@
+
+==================================================
+AI LEAD ANALYSIS REPORT
+==================================================
+
+DATA SUMMARY
+--------------------------------------------------
+Total Leads Processed:     50,000
+Valid Leads:               30,039 (60.1%)
+Invalid Leads Removed:     19,961
+
+LEAD CLASSIFICATION
+--------------------------------------------------
+HOT Leads (Best):          3,132
+HOT Leads:                 3,132
+WARM Leads:                8,881
+COLD Leads:                14,929
+
+OUTPUT FILES
+--------------------------------------------------
+clean_leads.csv
+best_leads.csv
+charts.png
+
+AI RECOMMENDATION
+--------------------------------------------------
+Focus telecalling on HOT leads first.
+WARM leads should be nurtured through follow-ups.
+COLD leads require additional engagement strategy.
+
+PERFORMANCE
+--------------------------------------------------
+Processing Time:           1.82 sec
+Records / Second:          27471
+
+==================================================

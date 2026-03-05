@@ -1,0 +1,63 @@
+{
+  // Pylance Configuration
+  "python.defaultInterpreterPath": "${workspaceFolder}/../venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.completeFunctionParens": true,
+  "python.linting.enabled": true,
+
+  // Type Checking and Diagnostics
+  "python.analysis.diagnosticSeverityOverrides": {},
+  "python.analysis.reportMissingImports": true,
+  "python.analysis.reportMissingTypeStubs": false,
+  "python.analysis.reportGeneralTypeIssues": true,
+  "python.analysis.reportUnusedVariable": "warning",
+  "python.analysis.reportUnnecessaryIsInstance": "warning",
+  "python.analysis.reportPrivateUsage": "warning",
+
+  // Code formatting
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // Editor settings
+  "editor.rulers": [88, 120],
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "**/venv": true
+  },
+
+  // Pylance language server settings
+  "python.analysis.reportMissingImports": true,
+  "python.analysis.reportMissingTypeStubs": false,
+  "python.analysis.reportGeneralTypeIssues": true,
+  "python.analysis.reportUnusedVariable": "warning",
+  "python.analysis.reportUnnecessaryIsInstance": "warning",
+  "python.analysis.reportPrivateUsage": "warning",
+
+  // Workspace settings
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.pytest_cache/**": true,
+    "**/__pycache__/**": true
+  },
+
+  // Terminal settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {
+    "PYTHONIOENCODING": "utf-8"
+  }
+}
