@@ -37,15 +37,6 @@
     "**/.venv": true,
     "**/venv": true
   },
-
-  // Pylance language server settings
-  "python.analysis.reportMissingImports": true,
-  "python.analysis.reportMissingTypeStubs": false,
-  "python.analysis.reportGeneralTypeIssues": true,
-  "python.analysis.reportUnusedVariable": "warning",
-  "python.analysis.reportUnnecessaryIsInstance": "warning",
-  "python.analysis.reportPrivateUsage": "warning",
-
   // Workspace settings
   "files.watcherExclude": {
     "**/.git/objects/**": true,
